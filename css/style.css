@@ -1,0 +1,128 @@
+/*** https://github.com/themefisher/Blue-Onepage-HTML5-Business-Template **/
+@font-face {
+    font-family: "Oswald-Bold";
+    src: url('../fonts/Oswald-Bold.ttf');
+}
+@font-face {
+    font-family: "Oswald-Light";
+    src: url('../fonts/Oswald-Light.ttf');
+}
+
+.deco {
+	background: none repeat scroll 0 0 #f16021;
+}
+.deco  h1, .deco  h2, .deco  h3, .deco  h4, .deco  h5, .deco  h6 {
+	background: none repeat scroll 0 0 #f16021;
+	color: #fff;
+}
+
+.nuage ul{
+	height:130px;
+	list-style-type:none;
+	margin-top:0;
+	overflow:hidden;
+	padding:0;
+	position:relative
+}
+ .nuage ul li{
+	line-height:inherit;
+	margin:0;
+	padding-left:0;
+	position:absolute;
+	text-transform:uppercase
+}
+ /*.nuage ul li:before{
+	content:""
+}*/
+ .nuage ul li.p1,
+ .nuage ul li.p2,
+ .nuage ul li.p3,
+ .nuage ul li.p7,
+ .nuage ul li.p9,
+ .nuage ul li.p10{
+	font-family:"Oswald-Bold";
+}
+ .nuage ul li.p4,
+ .nuage ul li.p5,
+ .nuage ul li.p6,
+ .nuage ul li.p8,
+ .nuage ul li.p11,
+ .nuage ul li.p12{
+	font-family:"Oswald-Light";
+}
+ .nuage ul li.p1,
+ .nuage ul li.p3{
+	font-size:50px;
+}
+ .nuage ul li.p2{
+	font-size:83px;
+}
+ .nuage ul li.p7,
+ .nuage ul li.p8,
+ .nuage ul li.p9,
+ .nuage ul li.p10{
+	font-size:21px
+}
+ .nuage ul li.p6{
+	font-size:40px;
+}
+ .nuage ul li.p4,
+ .nuage ul li.p5,
+ .nuage ul li.p11,
+ .nuage ul li.p12{
+	font-size:29px;
+}
+ .nuage ul li.p1{
+	top:12px;
+	left:0;
+}
+ .nuage ul li.p2{
+	top:60px;
+	left:407px;
+	letter-spacing:0.10em
+}
+ .nuage ul li.p3{
+	top:12px;
+	left:830px;
+}
+ .nuage ul li.p4{
+	top:95px;
+	left:0;
+	letter-spacing:-0.05em
+}
+ .nuage ul li.p5{
+	top:93px;
+	left:207px;
+	letter-spacing:-0.05em
+}
+ .nuage ul li.p6{
+	top:35px;
+	left:248px;
+}
+ .nuage ul li.p7{
+	top:1px;
+	left:250px;
+	letter-spacing:1.15em
+}
+ .nuage ul li.p8{
+	top:3px;
+	left:417px;
+}
+ .nuage ul li.p9{
+	top:16px;
+	left:755px;
+}
+ .nuage ul li.p10{
+	top:48px;
+	left:598px;
+}
+ .nuage ul li.p11{
+	top:2px;
+	left:510px;
+	letter-spacing:0.14em
+}
+ .nuage ul li.p12{
+	top:95px;
+	left:832px;
+	letter-spacing:0.06em;
+}
