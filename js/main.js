@@ -11,8 +11,12 @@ jQuery(window).load(function(){
 
 $('#myCollapsible').collapse({
 	toggle: false
+	//document.getElementById("collapseTwo").style.height = 150px;
 })
-
+$('#myCollapsible').collapse({
+	//heightStyle: "content"
+	//document.getElementById("collapseTwo").style.height = 150px
+});
 /* ========================================================================= */
 /*  Welcome Section Slider
 /* ========================================================================= */
