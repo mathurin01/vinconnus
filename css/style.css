@@ -15,7 +15,18 @@
 	background: none repeat scroll 0 0 #f16021;
 	color: #fff;
 }
-
+#footer #accordion2  {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 0px;
+    height: 300px;
+    background-color: gray;
+    -webkit-transition: max-height 0.5s;
+    transition: max-height 0.5s;
+}
+}
 .nuage ul{
 	height:130px;
 	list-style-type:none;

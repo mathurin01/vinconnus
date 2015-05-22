@@ -8,15 +8,15 @@ jQuery(window).load(function(){
 
 });
 
+/*
+$('#mybutton').collapse({
 
-$('#myCollapsible').collapse({
-	toggle: false
-	//document.getElementById("collapseTwo").style.height = 150px;
-})
-$('#myCollapsible').collapse({
-	//heightStyle: "content"
-	//document.getElementById("collapseTwo").style.height = 150px
-});
+toggle:false
+})*/
+
+$('#mybutton').on('click', function(){
+        $(this).toggleClass('active');
+    });
 /* ========================================================================= */
 /*  Welcome Section Slider
 /* ========================================================================= */

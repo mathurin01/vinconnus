@@ -41,6 +41,26 @@
 
 		<!-- Modernizer Script for old Browsers -->
         <script src="js/modernizr-2.6.2.min.js"></script>
+		
+		
+<script type="text/javascript">
+	//jQuery(function($) {
+	/*$(document).ready(function () {
+		var open = false;
+		$('#footerSlideButton').click(function () {
+			if(open === false) {
+				$('#footerSlideContent').animate({ height: '300px' });
+				$(this).css('backgroundPosition', 'bottom left');
+				open = true;
+			} else {
+				$('#footerSlideContent').animate({ height: '0px' });
+				$(this).css('backgroundPosition', 'top left');
+				open = false;
+			}
+		});		
+	});*/
+</script>
+
         <link rel="stylesheet" href="css/style.css">
 
     </head>
@@ -578,9 +598,27 @@
 			<!-- end Contact section -->
 		
 		</main>
+
 		
+
 		<footer id="footer">
+
 			<div class="container">
+				<!--<div class="row">
+					<div class="accordion" id="accordion2">  
+						<div class="accordion-heading">						 
+							<div id="collapseTwo" class="accordion-body collapse">
+									<div class="accordion-inner">
+										Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. L'avantage de le mettre en latin est que l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas valide, et surtout l'attention du client n'est pas dérangée par le contenu, il demeure concentré seulement sur l'aspect graphique.
+
+										Ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une occupation normale. La méthode simpliste consistant à copier-coller un court texte plusieurs fois (« ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte ») a l'inconvénient de ne pas permettre une juste appréciation typographique du résultat final.
+
+										Il circule des centaines de versions différentes du Lorem ipsum, mais ce texte aurait originellement été tiré de l'ouvrage de Cicéron, De Finibus Bonorum et Malorum (Liber Primus, 32), texte populaire à cette époque, dont l'une des premières phrases est : « Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... » (« Il n'existe personne qui aime la souffrance pour elle-même, ni qui la recherche ni qui la veuille pour ce qu'elle est... »).
+								</div>
+							</div>
+						</div>
+					</div><!-- fin accordion
+				</div> -->
 				<div class="row text-center">
 					<div class="footer-content">
 						<!--<div class="wow animated fadeInDown">
@@ -604,16 +642,17 @@
 								<li class="wow animated zoomIn" data-wow-delay="1.2s"><a href="#"><i class="fa fa-youtube fa-3x"></i></a></li>
 							</ul>
 						</div>
-						
-						<p>Copyright &copy; 2014-2015 Design and Developed By<a href="http://www.themefisher.com">Themefisher</a> | <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Mentions légales</a>   </p>
+						<p>Copyright &copy; 2014-2015 Design and Developed By<a href="http://www.themefisher.com">Themefisher</a> | <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo" id="mybutton" >Mentions légales</a>   
+						</p>
 										
 					</div>
 				</div>
-				<div class="row">
+			</div>
+			
+					<div class="row">
 					<div class="accordion" id="accordion2">  
-						<div class="accordion-heading">
-							 
-								<div id="collapseTwo" class="accordion-body collapse">
+						<div class="accordion-heading">						 
+							<div id="collapseTwo" class="accordion-body collapse">
 									<div class="accordion-inner">
 										Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. L'avantage de le mettre en latin est que l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas valide, et surtout l'attention du client n'est pas dérangée par le contenu, il demeure concentré seulement sur l'aspect graphique.
 
@@ -623,11 +662,10 @@
 								</div>
 							</div>
 						</div>
-						</div><!-- fin accordion -->
+					</div><!-- fin accordion -->
 				</div>
-			</div>
+						
 		</footer>
-		
 		<!-- Essential jQuery Plugins
 		================================================== -->
 		<!-- Main jQuery -->
