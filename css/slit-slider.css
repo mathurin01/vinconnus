@@ -155,19 +155,19 @@
 }
 
 .bg-img-1 {
+	background-image: url(../img/slider/produits.jpg);
 	/*background-image: url(../img/slider/banner.jpg);*/
 	/*background-image: url(../img/slider/14959850945_417b1bec11_b.jpg);*/
-	background: rgba(255,152,54,1);
 }
 .bg-img-2 {
-	/*background-image: url(../img/slider/affinity.jpeg);
-	background-image: url(../img/slider/6329588136_b9d282ae8b_b.jpg);*/
-	background: rgba(255,113,35,1);
+	background-image: url(../img/slider/40E5455928.jpg);
+	/*background-image: url(../img/slider/6329588136_b9d282ae8b_b.jpg);
+	background: rgba(255,113,35,1);*/
 }
 .bg-img-3 {
-	/*background-image: url(../img/slider/cinelli.jpeg);
-	background-image: url(../img/slider/2015-03-28_104328.jpg);*/
-	background: rgba(255,105,22,1);
+	/*background-image: url(../img/slider/2015-03-28_104328.jpg);
+	background: rgba(255,105,22,1);*/
+	background: rgba(255,152,54,1);
 }
 
 

@@ -8,15 +8,12 @@ jQuery(window).load(function(){
 
 });
 
-/*
-$('#mybutton').collapse({
-
-toggle:false
-})*/
-
-$('#mybutton').on('click', function(){
+$(function($){
+    $('.fTab').on('click', function(){
         $(this).toggleClass('active');
     });
+});
+
 /* ========================================================================= */
 /*  Welcome Section Slider
 /* ========================================================================= */
@@ -113,10 +110,10 @@ $(document).ready(function(){
 	
     $(window).scroll(function () {
         if ($(window).scrollTop() > 400) {
-            $(".navbar-brand a").css("color","#fff");
+            /*$(".navbar-brand a").css("color","#cc402d");*/
             $("#navigation").removeClass("animated-header");
         } else {
-            $(".navbar-brand a").css("color","inherit");
+            /*$(".navbar-brand a").css("color","#cc402d");*/
             $("#navigation").addClass("animated-header");
         }
     });
