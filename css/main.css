@@ -64,11 +64,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .nuage a{
-	color: #58585a;
+	color: #fff;/*#58585a;*/
 }
 
 .nuage a:hover{
-	color: #f16021;
+	color: #000;/*#f16021;*/
 }
 
 main > section {
@@ -80,10 +80,11 @@ main > section {
     border: 0;
     position: relative;
     text-transform: uppercase;
+	border: 1px solid #fff;
 }
 
 .btn-blue {
-    background-color: rgba(255,113,35,1);
+    background-color: rgba(255,113,35,1); /*rgba(204,64,45,1)*/
     box-shadow: 0 -2px 0 rgba(255, 255, 255, 1) inset;
     padding: 15px 55px;
     color: #fff;
@@ -166,7 +167,9 @@ main > section {
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
-	color: #009EE3;
+	background-color: #cc402d;
+	color: #fff;
+	border: 1px solid #fff;
 }
 
 .btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
@@ -983,6 +986,7 @@ ul.external li a:hover {
 
 #contact {
     background-color: #cc402d;
+	/*border-bottom: 1px solid white;*/
 }
 
 #contact h1, #contact h2, #contact h3, #contact h4, #contact h5, #contact a, #contact p  {
@@ -1008,15 +1012,20 @@ textarea.form-control {
 }
 
 #submit:hover {
-  color: #fff;
+  /*color: #fff;*/
+	background-color: #cc402d;
+	color: #fff;
+	border: 1px solid #fff;
 }
 
 #submit:before {
-  background-color: #0A85BB;
+  /*background-color: #0A85BB;*/
+	background-color: #cc402d;
 }
 
 #submit.btn-effect:after {
-  background: #2E2E2E;
+  /*background: #2E2E2E;*/
+	background: #cc402d;
 }
 
 .contact-details h3 {
@@ -1058,14 +1067,14 @@ textarea.form-control {
 /*============================================================
 	Footer
 ==============================================================*/
-/*
+
 #footer {
-    background-color: #2E2E2E;
-    padding: 30px 0;
+    background-color: #cc402d;
+    padding: 50px 0;
     color: #fff;
 	height: auto;
 }
-
+/*
 #footer #accordion2 {
 }
 .footer-content {

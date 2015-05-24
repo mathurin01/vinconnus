@@ -8,11 +8,7 @@ jQuery(window).load(function(){
 
 });
 
-$(function($){
-    $('.fTab').on('click', function(){
-        $(this).toggleClass('active');
-    });
-});
+$('.collapse').collapse()
 
 /* ========================================================================= */
 /*  Welcome Section Slider

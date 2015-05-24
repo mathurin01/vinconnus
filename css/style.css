@@ -15,6 +15,7 @@
 	background: none repeat scroll 0 0 #f16021;
 	color: #fff;
 }
+/*
 #footer #accordion2  {
     position: absolute;
     left: 0;
@@ -25,9 +26,14 @@
     background-color: gray;
     -webkit-transition: max-height 0.5s;
     transition: max-height 0.5s;
-}
+}*/
 .row {
 	/*border-bottom: 1px solid #cc402d;*/
+}
+
+.nuage {
+	background-color: #cc402d;
+	padding: 10px;
 }
 .nuage ul{
 	height:130px;
@@ -42,7 +48,8 @@
 	margin:0;
 	padding-left:0;
 	position:absolute;
-	text-transform:uppercase
+	text-transform:uppercase;
+	/*color: #fff;*/
 }
  /*.nuage ul li:before{
 	content:""
@@ -141,34 +148,36 @@
 	letter-spacing:0.06em;
 }
 
-#footer {
-    /*position: absolute;*/
-    left: 0;
-    right: 0;
-    bottom: 0;/**/
-    max-height: 0px;
-    /**/height: 300px;
-    background-color: gray;
-    -webkit-transition: max-height 0.5s;
-    transition: max-height 0.5s;
+.panel-default>.panel-heading {
+  color: #fff;
+  background-color: #cc402d;
+   /*padding: 0px 15px; 
+ border-color: #ddd;*/
 }
+.modal-dialog , footer h4, footer a{
+  color: #fff;
+  background-color: #cc402d;
 
-.fTab {
-    /*position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: 1em;*/
-	color: white;
-    /*background-color: gray;*/
-    
-    -webkit-transition: bottom 0.5s;
-    transition: bottom 0.5s;
 }
+.close, .panel-body{
+  color: #fff;
+  background-color: #000;
 
-.fTab.active {
-    bottom: 300px;
 }
-
-.fTab.active + #footer {
-    max-height: 300px;
+.footer {
+	/*width: 100%;
+	margin: auto;*/
+	height: auto ;
 }
+.mentions h2, .mentions h3, .mentions h4  {
+  color: #cc402d;
+  background-color: black;
+ }
+ .panel-group {
+  margin-bottom: 0px;
+}
+.panel {
+	border: 0px;
+}
+.panel-heading {
+  padding: 0px 15px; 
